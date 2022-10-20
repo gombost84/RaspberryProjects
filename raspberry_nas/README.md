@@ -69,7 +69,7 @@ Connect your external drive if you haven't already. Then run the following comma
 
 You might see a bunch of information but we're only interested at the end, see the marked part on the screenshot below.  
 
-![fdisk output](/screens/fdisk.PNG)
+![fdisk output](screens/fdisk.PNG)
 
 That's where your drive resides. Now, we have to mount it. But for that, we need to create a folder with the following command:  
 
@@ -121,12 +121,12 @@ Save the file and restart samba with:
 
 The drive should now be reachable from any computer on the network. I'm using a Windows 10 machine.
 
-![nas visible](/screens/nas.PNG)
+![nas visible](screens/nas.PNG)
 
 If it's not there for you and you are also using a Windows computer, you might need to enable SMB:  
 **Control Panel** > **Programs** > **Turn Windows features on or off**, scroll down and tick to box next to **SMB 1.0/CIFS File Sharing Support**  
 
-![smb on](/screens/smb_on.PNG)
+![smb on](screens/smb_on.PNG)
 
 You can also map the drive by right clicking on it and selecting *Map network drive*, ticking the box next to *Connect using different user* and clicking **Finish**.  
 Then supply your credentials, tick *Remember my credentials* and click **Ok**.  
