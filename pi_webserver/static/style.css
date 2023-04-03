@@ -1,0 +1,38 @@
+html {
+    font-family: monospace, Courier, 'Courier New';
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#fd9333, #af5f02);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    display: inline-block;
+}
+
+table {
+    align-self: center;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #f1f1f1;
+}

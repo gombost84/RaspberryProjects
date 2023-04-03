@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<title> {{ title }} </title>
+<link rel="stylesheet" href="../static/style.css" />
+</head>
+
+<body>
+    <h1> {{ main_header }} </h1>
+    <h2> {{ time_date }} </h2>
+    <div>
+        <table>
+            <caption>Links to things</caption>
+            <tr>
+                <th><a href="{{ url_for('movies') }}">Movies</a></th>
+                <th><a href="{{ url_for('pics') }}">Pics</a></th>
+            </tr>
+    </div>
+</body>
+
+</html>

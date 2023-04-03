@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title> MOVIES </title>
+    <link rel="stylesheet" href="../static/style.css" />
+</head>
+
+<body>
+    <div>
+        {% for item in files %}  
+         <p><a href="{{ url_for('video', name=item, format=item.split('.')[-1].lower()) }}"> {{ item }} </a></p>
+        {% endfor %}
+    </div>
+</body>
+
+</html>
